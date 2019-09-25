@@ -1,0 +1,27 @@
+.tab-head::after{
+	clear: both;
+	display: block;
+	content: "";
+	width: 0;
+	height: 0;
+}
+.tab-head{
+	border-bottom: 1px solid #ccc;
+}
+.tab-head li {
+	float: left;
+	padding: 8px;
+	cursor: pointer;
+}
+.tab-head li:hover{
+	color: chartreuse;
+}
+.tab-head li.active{
+	color:deepskyblue;
+}
+.tab-panel{
+	display: none;
+}
+.tab-panel.active{
+	display: block;
+}
